@@ -58,11 +58,11 @@ function App() {
       </h1>
         <p>
           Make a folder where you want your new project using
-          <code>mkdir project_name</code><br></br>
+          <code> mkdir project_name</code><br></br>
           Then go into the folder using
-          <code>cd project_name</code><br></br>
+          <code> cd project_name</code><br></br>
           And finally create a local git repository using
-          <code>git init</code>        
+          <code> git init</code>        
         </p>
         <p><img src="git init.PNG" alt="init"></img></p>
       <h1>
@@ -71,7 +71,7 @@ function App() {
         <p>
           Git has the ability to track changes made within files. As an example, just create 
            a new file within your project folder with <code>touch file_name</code> and use
-          <code>git status</code><br></br>
+          <code> git status</code><br></br>
           Git will essentially tell you that they noticed a new file,
           but will leave it alone until further instructions.
         </p>
@@ -115,7 +115,7 @@ function App() {
         </p>
         <p>
         In this case, we already have an existing repository, <br></br>so we will use
-          <code>git remote add origin git@github.com/username/repo_name.git</code>.<br></br>To send
+          <code> git remote add origin git@github.com/username/repo_name.git</code>.<br></br>To send
           our changes to the remote repository we will use <code>git push -u origin master</code>.
         </p>
         <p>
@@ -126,7 +126,7 @@ function App() {
       </h1>
         <p>
           To update your local repository to the newest changes on the remote, use
-          <code>git pull</code><br></br>
+          <code> git pull</code><br></br>
           To merge branches to active branches (or masters), use <code>git merge branch_name</code>
         </p>
         <p><img src="git pull.PNG" alt="pull"></img></p>
